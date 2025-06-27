@@ -43,7 +43,11 @@ public class FormaGeometricaController {
         // É um triângulo
         else if (lados.length == 3 && lados[0] == lados[1] && lados[0] == lados[2]) { // Caso tenha 3 lados e eles sejam iguais, instancia um Equilátero
             return new Equilatero(lados);
-        } else if (lados.length == 3 && lados[0] == lados[1] && lados[0] != lados[2]) { // Caso tenha 3 lados e dois deles sejam iguais, instancia um Isósceles
+        } else if (lados.length == 3 &&
+                (
+                        (lados[0] == lados[1] && lados[0] != lados[2]) ||
+                        (lados[0] != lados[1] && lados[1] == lados[2])
+                )) { // Caso tenha 3 lados e dois deles sejam iguais, instancia um Isósceles
             return new Isosceles(lados);
         } else if (lados.length == 3 && lados[0] != lados[1] && lados[1] != lados[2]) { // Caso tenha 3 lados e eles sejam diferentes, instancia um Escaleno
             return new Escaleno(lados);

@@ -11,7 +11,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Equipe MBL"
+        android:text="@string/mainTitle"
         android:textSize="24sp"
         android:textStyle="bold"
         android:layout_marginBottom="32dp"/>
@@ -19,7 +19,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Integrantes:"
+        android:text="@string/mainDescription"
         android:textSize="18sp"
         android:textStyle="bold"/>
 
@@ -34,17 +34,17 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="• Marcelo de Paula" />
+            android:text="@string/membro1" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="• Bruno Lallo"/>
+            android:text="@string/membro2"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="• Lian Fantucci" />
+            android:text="@string/membro3" />
     </LinearLayout>
 
     <Button

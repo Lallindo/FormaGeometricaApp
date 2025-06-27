@@ -69,9 +69,19 @@ public class EntradaActivity extends AppCompatActivity {
         // Verifica quantos lados foram informados
         float[] lados = checarLados(new String[]{strLado1, strLado2, strLado3});
 
-        IForma forma = controller.instanciarFormaGeometrica(lados);
+        IForma forma = null;
+
+        try {
+            forma = controller.instanciarFormaGeometrica(lados);
+        } catch (Exception e) {
+            Intent intent = new Intent(EntradaActivity.this, ErroActivity.class);
+            intent.putExtra("erro_description", e.getMessage());
+            startActivity(intent);
+            finish();
+        }
 
         Intent intent = new Intent(EntradaActivity.this, ResultadoActivity.class);
+        assert forma != null;
         intent.putExtra("nome_forma", forma.nomeDaForma());
         intent.putExtra("perimetro_forma", forma.calcularPerimetro());
         intent.putExtra("area_forma", forma.calcularArea());

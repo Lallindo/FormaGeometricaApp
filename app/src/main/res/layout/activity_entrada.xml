@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Informe os lados da figura geométrica"
+            android:text="@string/entradaTitle"
             android:textSize="20sp"
             android:textStyle="bold"
             android:gravity="center"
@@ -23,7 +23,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:hint="Lado 1">
+            android:hint="@string/lado1">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editLado1"
@@ -38,7 +38,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:hint="Lado 2 (opcional)">
+            android:hint="@string/lado2">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editLado2"
@@ -53,7 +53,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="32dp"
-            android:hint="Lado 3 (opcional)">
+            android:hint="@string/lado3">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editLado3"
@@ -68,7 +68,7 @@
             android:id="@+id/btnCalcular"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Calcular"
+            android:text="@string/entradaBtnCalcular"
             android:layout_marginTop="16dp"
             android:padding="12dp"
             android:textSize="16sp"/>
@@ -76,7 +76,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Observação: Informe de 1 a 3 lados para identificar a figura geométrica."
+            android:text="@string/entradaObs"
             android:textColor="@android:color/darker_gray"
             android:textSize="12sp"
             android:layout_marginTop="16dp"/>

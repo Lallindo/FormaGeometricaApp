@@ -1,8 +1,24 @@
 <resources>
     <string name="app_name">FiguraGeometricaApp</string>
-    <string name="resultado_title">Resultado da análise</string>
-    <string name="tipo_text">Tipo: </string>
-    <string name="perimetro_text">Perímetro: </string>
-    <string name="area_text">Área: </string>
-    <string name="btn_voltar">Voltar</string>
+    <string name="resultadoTitle">Resultado da análise</string>
+    <string name="tipoText">Tipo: </string>
+    <string name="perimetroText">Perímetro: </string>
+    <string name="areaText">Área: </string>
+    <string name="btnVoltar">Voltar</string>
+
+    <string name="mainTitle">Equipe MBL</string>
+    <string name="mainDescription">Integrantes: </string>
+    <string name="membro1">• Marcelo de Paula</string>
+    <string name="membro2">• Bruno Lallo</string>
+    <string name="membro3">• Lian Fantucci</string>
+
+    <string name="entradaTitle">Informe os lados da figura geométrica</string>
+    <string name="lado1">Lado 1: </string>
+    <string name="lado2">Lado 2 (Opcional): </string>
+    <string name="lado3">Lado 3 (Opcional): </string>
+    <string name="entradaBtnCalcular">Calcular</string>
+    <string name="entradaObs">Observação: Informe de 1 a 3 lados para identificar a figura geométrica.</string>
+
+    <string name="erroTitle">Aconteceu um erro</string>
+    <string name="erroDescription">Erro desconhecido</string>
 </resources>

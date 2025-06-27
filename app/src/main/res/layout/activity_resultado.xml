@@ -16,7 +16,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/resultado_title"
+            android:text="@string/resultadoTitle"
             android:textSize="24sp"
             android:textStyle="bold"
             android:gravity="center"
@@ -31,7 +31,7 @@
             android:elevation="4dp">
 
             <TextView
-                android:id="@+id/tipo_text"
+                android:id="@+id/tipoText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="16sp"
@@ -39,7 +39,7 @@
                 android:textColor="@android:color/black"/>
 
             <TextView
-                android:id="@+id/area_text"
+                android:id="@+id/areaText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4dp"
@@ -47,7 +47,7 @@
                 android:textSize="16sp" />
 
             <TextView
-                android:id="@+id/perimetro_text"
+                android:id="@+id/perimetroText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:lineSpacingExtra="4dp"
@@ -55,7 +55,7 @@
                 android:textSize="16sp" />
 
             <ImageView
-                android:id="@+id/img_forma"
+                android:id="@+id/imgForma"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:srcCompat="@drawable/bg_resultado" />
@@ -69,7 +69,7 @@
             android:layout_marginTop="24dp"
             android:onClick="onVoltarClick"
             android:padding="12dp"
-            android:text="@string/btn_voltar"
+            android:text="@string/btnVoltar"
             android:textSize="16sp" />
 
     </LinearLayout>

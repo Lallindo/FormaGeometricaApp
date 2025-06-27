@@ -22,10 +22,10 @@ public class ResultadoActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_resultado);
 
-        tipoText = findViewById(R.id.tipo_text);
-        perimetroText = findViewById(R.id.perimetro_text);
-        areaText = findViewById(R.id.area_text);
-        imgForma = findViewById(R.id.img_forma);
+        tipoText = findViewById(R.id.tipoText);
+        perimetroText = findViewById(R.id.perimetroText);
+        areaText = findViewById(R.id.areaText);
+        imgForma = findViewById(R.id.imgForma);
 
         // Processa o resultado
         tipoText.append(
