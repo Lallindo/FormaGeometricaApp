@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FiguraGeometricaApp</string>
+    <string name="resultado_title">Resultado da análise</string>
+    <string name="tipo_text">Tipo: </string>
+    <string name="perimetro_text">Perímetro: </string>
+    <string name="area_text">Área: </string>
+    <string name="btn_voltar">Voltar</string>
+</resources>
